@@ -2,6 +2,7 @@ msgs
 ####
 
 Accelerometer
+*************
 
 .. code-block:: cpp
 

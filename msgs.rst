@@ -4,6 +4,10 @@ msgs
 Accelerometer
 *************
 
+Units are in m/s :sup:`2`
+
+.. image:: /images/accelerometer.png
+
 .. code-block:: cpp
 
     float32 x
@@ -12,6 +16,10 @@ Accelerometer
 
 Angle
 *****
+
+Units are in rad
+
+.. image:: /images/angle.png
 
 .. code-block:: cpp
 
@@ -55,6 +63,10 @@ FSR
 
 Gyroscope
 *********
+
+Units are in rad/s
+
+.. image:: /images/gyroscope.png
 
 .. code-block:: cpp
 

@@ -10,6 +10,8 @@ Welcome to nao_interfaces's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   msgs
+
 
 
 Indices and tables

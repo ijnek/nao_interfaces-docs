@@ -1,5 +1,7 @@
-msgs
-####
+.. _msgs:
+
+Nao msg files
+#############
 
 Accelerometer
 *************

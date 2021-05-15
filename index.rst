@@ -6,18 +6,20 @@
 Welcome to nao_interfaces's documentation!
 ==========================================
 
+This is a `ROS2 interface package`_ for the Softbank NAO robot.
+Custom message types specific to the NAO robot are defined in
+this package, and are explained in these docs.
+
+The :ref:`msgs` page explains all msg classes.
+
+The :ref:`joint_indexes` page explains how to handle NAO joints in detail.
+
 .. toctree::
+   :hidden:
    :maxdepth: 2
    :caption: Contents:
 
    msgs
    joint-indexes
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. _ROS2 interface package: https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html

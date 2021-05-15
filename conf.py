@@ -97,6 +97,8 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
+html_logo = 'images/nao_interfaces_icon.png'
+
 
 # -- Options for HTMLHelp output ---------------------------------------------
 

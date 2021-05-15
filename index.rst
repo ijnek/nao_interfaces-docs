@@ -11,6 +11,7 @@ Welcome to nao_interfaces's documentation!
    :caption: Contents:
 
    msgs
+   joint-indexes
 
 
 

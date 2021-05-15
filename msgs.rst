@@ -81,6 +81,8 @@ Units are in rad/s.
 Joints
 ******
 
+See :ref:`joint_indexes` to see which indexes correspond to which joint
+
 .. code-block:: cpp
 
     float32[25] angles  // rad

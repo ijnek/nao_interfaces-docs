@@ -21,5 +21,6 @@ The :ref:`joint_indexes` page explains how to handle NAO joints in detail.
 
    msgs
    joint-indexes
+   related-ros2-packages
 
 .. _ROS2 interface package: https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html

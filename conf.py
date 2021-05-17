@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'nao_interfaces'
+project = 'Nao Interfaces'
 copyright = '2021, Kenji Brameld'
 author = 'Kenji Brameld'
 

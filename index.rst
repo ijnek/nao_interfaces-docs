@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Nao Interface's documentation!
-==========================================
+Nao Interfaces
+==============
 
 This is a `ROS2 interface package`_ for the Softbank NAO robot.
 Custom message types specific to the NAO robot are defined in

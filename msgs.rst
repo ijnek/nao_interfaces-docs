@@ -112,7 +112,9 @@ Touch
 EyeLEDs
 *******
 
-Colors for each individual LED in the eyes can be specified. **The alpha value (A) in ColorRGBA is not used.**
+Message identifying colors for each RGB LED in the NAO's eyes.
+
+**Expect ranges for R, G and B are 0.0 - 1.0. The alpha value (A) is ignored.**
 
 .. image:: images/eye_leds.png
 

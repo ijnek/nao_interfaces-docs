@@ -108,3 +108,31 @@ Touch
     bool head_front  // true if being touched
     bool head_middle  // true if being touched
     bool head_rear  // true if being touched
+
+EyeLEDs
+*******
+
+Colors for each individual LED in the eyes can be specified. **The alpha value (A) in ColorRGBA is not used.**
+
+.. image:: images/eye_leds.png
+
+.. code-block:: cpp
+
+    int32 L0=0
+    int32 L1=1
+    int32 L2=2
+    int32 L3=3
+    int32 L4=4
+    int32 L5=5
+    int32 L6=6
+    int32 L7=7
+    int32 R0=8
+    int32 R1=9
+    int32 R2=10
+    int32 R3=11
+    int32 R4=12
+    int32 R5=13
+    int32 R6=14
+    int32 R7=15
+
+    std_msgs/ColorRGBA[16] leds

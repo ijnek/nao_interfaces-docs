@@ -109,7 +109,7 @@ Touch
     bool head_middle  // true if being touched
     bool head_rear  // true if being touched
 
-EyeLEDs
+EyeLeds
 *******
 
 Message identifying colors for each RGB LED in the NAO's eyes.

@@ -112,29 +112,12 @@ Touch
 EyeLeds
 *******
 
-Message identifying colors for each RGB LED in the NAO's eyes.
-
-**Expect ranges for R, G and B are 0.0 - 1.0. The alpha value (A) is ignored.**
-
 .. image:: images/eye_leds.png
+
+Message identifying colors for each of the 16 RGB Leds in the NAO's eyes. **Expected range for R, G and B are 0.0 - 1.0. The alpha (A) is not used.**
+
+See :ref:`eye_led_indexes` to see which indexes correspond to which led in the eyes.
 
 .. code-block:: cpp
 
-    int32 L0=0
-    int32 L1=1
-    int32 L2=2
-    int32 L3=3
-    int32 L4=4
-    int32 L5=5
-    int32 L6=6
-    int32 L7=7
-    int32 R0=8
-    int32 R1=9
-    int32 R2=10
-    int32 R3=11
-    int32 R4=12
-    int32 R5=13
-    int32 R6=14
-    int32 R7=15
-
-    std_msgs/ColorRGBA[16] leds
+    std_msgs/ColorRGBA[16] leds  // r, g, b should be 0.0 - 1.0. a is ignored

@@ -3,22 +3,7 @@
 Joint Indexes
 #############
 
-The list at the bottom shows the joint indexes copied from `Joints.msg`.
-
-An example of accessing an angle for a specific joint:
-
-.. code-block:: cpp
-
-    joints.angles[nao_interfaces::msg::Joints::HEADYAW]
-
-``nao_interfaces::msg::Joints::NUM_JOINTS`` can be for iterating over all joints, as following:
-
-.. code-block:: cpp
-
-    for (unsigned i = 0; i < nao_interfaces::msg::Joints::NUMJOINTS; ++i)
-    {
-        // do something for each joint
-    }
+The following list are the joint indexes copied from ``Joints.msg``:
 
 .. code-block:: cpp
 
@@ -48,3 +33,24 @@ An example of accessing an angle for a specific joint:
     int32 LHAND=23
     int32 RHAND=24
     int32 NUMJOINTS=25
+
+Accessing a joint angle
+***********************
+
+An example of accessing an angle for a specific joint:
+
+.. code-block:: cpp
+
+    joints.angles[nao_interfaces::msg::Joints::HEADYAW]
+
+Iterating over all joints
+*************************
+
+``nao_interfaces::msg::Joints::NUM_JOINTS`` can be used for iterating over all joints, as following:
+
+.. code-block:: cpp
+
+    for (unsigned i = 0; i < nao_interfaces::msg::Joints::NUMJOINTS; ++i)
+    {
+        // do something for each joint
+    }

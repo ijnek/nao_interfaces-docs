@@ -14,7 +14,7 @@ The project is hosted on `Github`_.
 
 The :ref:`msgs` page explains all msg classes.
 
-The :ref:`joint_indexes` page explains how to handle NAO joints in detail.
+The :ref:`joints` page explains how to handle NAO joints in detail.
 
 .. toctree::
    :hidden:
@@ -22,8 +22,8 @@ The :ref:`joint_indexes` page explains how to handle NAO joints in detail.
    :caption: Contents:
 
    msgs
-   joint-indexes
-   eye-led-indexes
+   joints
+   leds
    related-ros2-packages
 
 .. _ROS2 interface package: https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html

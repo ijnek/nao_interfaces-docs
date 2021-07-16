@@ -21,7 +21,8 @@ The :ref:`joints` page explains how to handle NAO joints in detail.
    :maxdepth: 2
    :caption: Contents:
 
-   msgs
+   nao-sensor-msgs
+   nao-command-msgs
    joints
    leds
    related-ros2-packages

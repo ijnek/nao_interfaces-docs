@@ -1,7 +1,10 @@
-.. _nao_sensor_msgs:
+.. _sensor_msgs:
 
-NAO Sensor Msgs
-###############
+Sensor Msgs
+###########
+
+The package **nao_sensor_msgs** defines msgs used to store sensory information
+received from the NAO hardware.
 
 Accelerometer
 *************

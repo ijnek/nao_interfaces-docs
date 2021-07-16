@@ -104,6 +104,6 @@ The following list are the joint indexes copied from ``JointIndexes.msg``:
 .. note::
 
     Currently, there are two identical copies of  :ref:`joint_indexes` msg file,
-    in the :ref:`nao_sensor_msgs` and :ref:`nao_command_msgs` package.
+    in the :ref:`sensor_msgs` and :ref:`command_msgs` package.
     This is because we haven't found a nice way to avoid duplication.
     Possibly, this shouldn't even be a msg file but should be just a plain hpp file.

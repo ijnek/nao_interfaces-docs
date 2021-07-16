@@ -12,10 +12,10 @@ this package, and are explained in these docs.
 
 The project is hosted on `Github`_.
 
-:ref:`nao_sensor_msgs` page explains all msgs that can be used to read sensor information, such as joint angles,
+:ref:`sensor_msgs` page explains all msgs that can be used to read sensor information, such as joint angles,
 sonar readings, etc.
 
-:ref:`nao_command_msgs` page explains all msgs that can be used to command the robot, to move joints,
+:ref:`command_msgs` page explains all msgs that can be used to command the robot, to move joints,
 light up leds, etc.
 
 :ref:`joints` page explains in detail, how to read sensor information and write commands for the NAO's joints, along
@@ -28,8 +28,8 @@ with examples on how to set the intensity and color for them.
    :hidden:
    :maxdepth: 2
 
-   nao-sensor-msgs
-   nao-command-msgs
+   sensor-msgs
+   command-msgs
    joints
    leds
    related-ros2-packages

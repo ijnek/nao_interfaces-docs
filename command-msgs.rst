@@ -1,7 +1,10 @@
-.. _nao_command_msgs:
+.. _command_msgs:
 
-NAO Command Msgs
-################
+Command Msgs
+############
+
+The package **nao_command_msgs** defines msgs used to send commands to the underlying
+NAO hardware.
 
 .. _command_joints:
 

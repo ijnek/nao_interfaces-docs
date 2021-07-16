@@ -12,9 +12,16 @@ this package, and are explained in these docs.
 
 The project is hosted on `Github`_.
 
-The :ref:`msgs` page explains all msg classes.
+:ref:`nao_sensor_msgs` page explains all msgs that hold sensor information, such as joint angles,
+sonar readings, etc.
 
-The :ref:`joints` page explains how to handle NAO joints in detail.
+:ref:`nao_command_msgs` page explains all msgs to command the robot, to move joints,
+light up leds, etc.
+
+:ref:`joints` page explains how to handle NAO joints in detail.
+
+:ref:`leds` page describes the name and position of each led on the robot,
+and how to set the intensity and color for them.
 
 .. toctree::
    :hidden:

@@ -1,3 +1,5 @@
+.. _nao_command_msgs:
+
 NAO Command Msgs
 ################
 

@@ -1,3 +1,5 @@
+.. _nao_sensor_msgs:
+
 NAO Sensor Msgs
 ###############
 

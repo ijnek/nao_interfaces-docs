@@ -14,8 +14,8 @@ To set the intensity of :ref:`blue_leds`:
 .. code-block:: cpp
 
     // Set led L0 in left ear to intensity 1.0
-    nao_interfaces::msg::LeftEarLeds left_ear_leds;
-    left_ear_leds.intensities[nao_interfaces::msg::LeftEarLeds::L0] = 1.0;
+    nao_command_msgs::msg::LeftEarLeds left_ear_leds;
+    left_ear_leds.intensities[nao_command_msgs::msg::LeftEarLeds::L0] = 1.0;
 
 Set color of RGB led
 ====================
@@ -23,8 +23,8 @@ Set color of RGB led
 .. code-block:: cpp
 
     // Set red led in L0 of left eye to intensity 1.0
-    nao_interfaces::msg::LeftEyeLeds eye_leds;
-    eye_leds.colors[nao_interfaces::msg::LeftEyeLeds::L0].r = 1.0;
+    nao_command_msgs::msg::LeftEyeLeds eye_leds;
+    eye_leds.colors[nao_command_msgs::msg::LeftEyeLeds::L0].r = 1.0;
 
 Set color across all leds
 =========================
@@ -34,13 +34,13 @@ To populate all LEDs to be a certain color, you can iterate over NUM_LEDS, in th
 .. code-block:: cpp
 
     // Set all leds to yellow in right eye
-    nao_interfaces::msg::RightEyeLeds right_eye_leds;
+    nao_command_msgs::msg::RightEyeLeds right_eye_leds;
 
     std_msgs/ColorRGBA yellow;
     yellow.r = 1.0;
     yellow.g = 1.0;
 
-    for (unsigned i = 0; i < nao_interfaces::msg::RightEyeLeds::NUM_LEDS; ++i)
+    for (unsigned i = 0; i < nao_command_msgs::msg::RightEyeLeds::NUM_LEDS; ++i)
     {
       right_eye_leds.colors[i] = yellow;
     }

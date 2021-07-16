@@ -3,6 +3,8 @@
 NAO Command Msgs
 ################
 
+.. _command_joints:
+
 Joints
 ******
 
@@ -13,7 +15,7 @@ A msg file that defines the indexes used across all joint msgs.
 This msg does not have any fields, and doesn't serve a purpose in transmitting
 any information on topics. Examples of using this msg are shown in :ref:`joints`.
 
-.. _joint_positions:
+.. _command_joint_positions:
 
 JointPositions
 ==============
@@ -50,7 +52,7 @@ JointStiffnesses
 
 Joint stiffnesses in each motor joint, used both in receiving joint positions,
 and commanding joint positions. Msg population is the same as in
-:ref:`joint_positions`.
+:ref:`command_joint_positions`.
 
 
 .. code-block:: python

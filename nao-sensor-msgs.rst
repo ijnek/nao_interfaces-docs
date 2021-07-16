@@ -80,6 +80,8 @@ Units are in rad/s.
     float32 y  # rad/s
     float32 z  # rad/s
 
+.. _sensor_joints:
+
 Joints
 ******
 
@@ -93,12 +95,8 @@ of the NAO.
 
     float32[25] currents  # Amperes (A), in order of JointIndexes.msg
 
-JointIndexes
-============
 
-A msg file that defines the indexes used across all joint msgs.
-This msg does not have any fields, and doesn't serve a purpose in transmitting
-any information on topics. Examples of using this msg are shown in :ref:`joints`.
+.. _sensor_joint_positions:
 
 JointPositions
 ==============

@@ -11,13 +11,6 @@ NAO hardware.
 Joints
 ******
 
-JointIndexes
-============
-
-A msg file that defines the indexes used across all joint msgs.
-This msg does not have any fields, and doesn't serve a purpose in transmitting
-any information on topics. Examples of using this msg are shown in :ref:`joints`.
-
 .. _command_joint_positions:
 
 JointPositions

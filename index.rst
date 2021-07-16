@@ -12,21 +12,21 @@ this package, and are explained in these docs.
 
 The project is hosted on `Github`_.
 
-:ref:`nao_sensor_msgs` page explains all msgs that hold sensor information, such as joint angles,
+:ref:`nao_sensor_msgs` page explains all msgs that can be used to read sensor information, such as joint angles,
 sonar readings, etc.
 
-:ref:`nao_command_msgs` page explains all msgs to command the robot, to move joints,
+:ref:`nao_command_msgs` page explains all msgs that can be used to command the robot, to move joints,
 light up leds, etc.
 
-:ref:`joints` page explains how to handle NAO joints in detail.
+:ref:`joints` page explains in detail, how to read sensor information and write commands for the NAO's joints, along
+with some examples.
 
-:ref:`leds` page describes the name and position of each led on the robot,
-and how to set the intensity and color for them.
+:ref:`leds` page describes in detail, the name and position of each led on the robot,
+with examples on how to set the intensity and color for them.
 
 .. toctree::
    :hidden:
    :maxdepth: 2
-   :caption: Contents:
 
    nao-sensor-msgs
    nao-command-msgs

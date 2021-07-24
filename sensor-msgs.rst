@@ -4,7 +4,7 @@ Sensor Msgs
 ###########
 
 The package **nao_sensor_msgs** defines msgs used to store sensory information
-received from the NAO hardware.
+specific to the NAO robot.
 
 Accelerometer
 *************
@@ -29,6 +29,8 @@ Angle
 .. image:: /images/angle.png
 
 Units are in rad.
+
+An absolute angle of the torso. Both x and y are zero when upright.
 
 .. code-block:: python
 
@@ -104,7 +106,7 @@ of the NAO.
 JointPositions
 ==============
 
-Joint positions in each motor joint.
+Joint positions of each motor joint.
 
 .. code-block:: python
 

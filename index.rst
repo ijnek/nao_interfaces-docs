@@ -34,5 +34,5 @@ with examples on how to set the intensity and color for them.
    leds
    related-ros2-packages
 
-.. _ROS2 interface package: https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html
+.. _ROS2 interface package: https://docs.ros.org/en/galactic/Tutorials/Custom-ROS2-Interfaces.html
 .. _Github: https://github.com/ijnek/nao_interfaces

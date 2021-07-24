@@ -11,34 +11,20 @@ NAO hardware.
 Joints
 ******
 
-.. _command_joint_positions:
-
 JointPositions
 ==============
 
-Joint positions in each motor joint, used both in receiving joint positions,
-and commanding joint positions. When receiving joint positions, the position
-array would be of length 25, and an empty indexes vector.
-
-.. note::
-    
-    The message must be populated with either:
-        * Equal length indexes and positions vectors
-        * Positions array of length 25 with joint order specified in JointIndexes.msg, and an empty indexes vector
-
-.. tip::
-    
-    The reason behind the messages having two options for populating, is because:
-        * By not storing indexes, we can save on space, and not serialize.
-        * On the other hand, by being able to specify the indexes, we can have different nodes sending
-          joint position commands for different parts.
+By being able to specify the indexes, we can have different nodes sending
+partial joint position commands.
 
 .. code-block:: python
 
-    # A list of joint positions, corresponding to their indexes in the JointIndexes.msg.
-    # The message must EITHER have:
-    # - Equal length indexes and positions vectors
-    # - Positions array of length 25 with joint order specified in JointIndexes.msg, and an empty indexes vector
+    # Message to specify positions for the NAO's motor joints.
+    #
+    # Each joint is uniquely identified by its index (See JointIndexes.msg)
+    #
+    # The two arrays in this message should have the same size, where the first item
+    # in indexes, corresponds to the first item in positions, etc.
 
     uint8[] indexes  # See JointIndexes.msg (eg. JointIndexes::HEADYAW)
     float32[] positions # radians
@@ -46,17 +32,17 @@ array would be of length 25, and an empty indexes vector.
 JointStiffnesses
 ================
 
-Joint stiffnesses in each motor joint, used both in receiving joint positions,
-and commanding joint positions. Msg population is the same as in
-:ref:`command_joint_positions`.
-
+By being able to specify the indexes, we can have different nodes sending
+partial joint stiffness commands.
 
 .. code-block:: python
 
-    # A list of joint stiffnesses, corresponding to their indexes in the JointIndexes.msg.
-    # The message must EITHER have:
-    # - Equal length indexes and stiffnesses vectors
-    # - Stiffnesses array of length 25 with joint order specified in JointIndexes.msg, and an empty indexes vector
+    # Message to specify stiffnesses for the NAO's motor joints.
+    #
+    # Each joint is uniquely identified by its index (See JointIndexes.msg)
+    #
+    # The two arrays in this message should have the same size, where the first item
+    # in indexes, corresponds to the first item in stiffnesses, etc.
 
     uint8[] indexes  # See JointIndexes.msg (eg. JointIndexes::HEADYAW)
     float32[] stiffnesses  # 0.0 - 1.0

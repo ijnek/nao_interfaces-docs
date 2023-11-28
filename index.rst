@@ -6,7 +6,7 @@
 Nao Interfaces
 ==============
 
-This is a `ROS2 interface package`_ for the Softbank NAO robot.
+This is a `ROS2 interface package`_ for the Aldebaran NAO robot.
 Custom message types specific to the NAO robot are defined in
 this package, and are explained in these docs.
 

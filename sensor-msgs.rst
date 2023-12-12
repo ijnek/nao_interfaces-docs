@@ -3,6 +3,11 @@
 Sensor Msgs
 ###########
 
+.. warning::
+
+   This package is deprecated as of ROS 2 J-turtle (and ROS 2 Rolling).
+   A drop-in replacement for the interface packages are provided by the `Nao LoLA repository`_, please use that instead.
+
 The package **nao_sensor_msgs** defines msgs used to store sensory information
 specific to the NAO robot.
 
@@ -14,7 +19,7 @@ Accelerometer
 Units are in m/s :sup:`2`
 
 Note that gravity is measured by an accelerometer.
-When standing, the robot will measure 9.8 m/s :sup:`2` POSITIVE in the z-direction, since its 
+When standing, the robot will measure 9.8 m/s :sup:`2` POSITIVE in the z-direction, since its
 receiving an acceleration upwards from the floor when compared to a freefall state.
 
 .. code-block:: python
@@ -120,7 +125,7 @@ JointStatuses
 Temperature status enums, computed accordingly to the temperature limitation to protect the motors.
 
 .. code-block:: python
-    
+
     int32 STATUS_NORMAL=0          # normal
     int32 STATUS_HOT=1             # high, start to reduce stiffness
     int32 STATUS_VERY_HOT=2        # very hot, stiffness reduced over 30%
@@ -145,7 +150,7 @@ JointTemperatures
 Temperature reported for each motor joint in the NAO.
 
 .. tip::
-    
+
     **The motor temperature is a simulated one**, using electric current value of the motor.
     The motor board implements a temperature limitation to protect the motor. The temperature limitation depends on robot version.
 
@@ -181,3 +186,5 @@ Touch
     bool head_front  # true if being touched
     bool head_middle  # true if being touched
     bool head_rear  # true if being touched
+
+.. _NAO LoLA repository: https://nao-lola.readthedocs.io/

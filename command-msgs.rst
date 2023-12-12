@@ -3,6 +3,11 @@
 Command Msgs
 ############
 
+.. warning::
+
+   This package is deprecated as of ROS 2 J-turtle (and ROS 2 Rolling).
+   A drop-in replacement for the interface packages are provided by the `Nao LoLA repository`_, please use that instead.
+
 The package **nao_command_msgs** defines msgs used to send commands to the underlying
 NAO hardware.
 
@@ -147,3 +152,4 @@ Command to tell Lola whether to enable/disable the sonar.
     bool right  # Set to true, to use right sonar
 
 .. _std_msgs/ColorRGBA: http://docs.ros.org/en/api/std_msgs/html/msg/ColorRGBA.html
+.. _NAO LoLA repository: https://nao-lola.readthedocs.io/

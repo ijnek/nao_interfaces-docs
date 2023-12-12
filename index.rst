@@ -6,6 +6,11 @@
 Nao Interfaces
 ==============
 
+.. warning::
+
+   This package is deprecated as of ROS 2 J-turtle (and ROS 2 Rolling).
+   A drop-in replacement for the interface packages are provided by the `Nao LoLA repository`_, please use that instead.
+
 This is a `ROS2 interface package`_ for the Aldebaran NAO robot.
 Custom message types specific to the NAO robot are defined in
 this package, and are explained in these docs.
@@ -36,3 +41,4 @@ with examples on how to set the intensity and color for them.
 
 .. _ROS2 interface package: https://docs.ros.org/en/galactic/Tutorials/Custom-ROS2-Interfaces.html
 .. _Github: https://github.com/ijnek/nao_interfaces
+.. _NAO LoLA repository: https://nao-lola.readthedocs.io/
